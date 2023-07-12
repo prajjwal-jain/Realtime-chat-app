@@ -2,7 +2,7 @@ const socket = io()
 let name;
 let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
-var audio=new Audio("sound.wav")
+var audio=new Audio("mixkit-bubble-pop-up-alert-notification-2357.wav")
 do {
     name = prompt('Please enter your name: ')
 } while(!name)
